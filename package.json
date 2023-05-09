@@ -1,6 +1,9 @@
 {
   "name": "codedeploydemo",
   "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  }
   "description": "To show how CodeDeploy Works",
   "main": "index.js",
   "directories": {
