@@ -9,10 +9,10 @@
       <configuration>
         <webResources>
           <resource>
-            <directory>src/main/webapp</directory>
+            <directory>my-webapp/src/main/webapp</directory>
             <filtering>true</filtering>
             <includes>
-              <include>**/*</include>
+              <include>**/target*.war</include>
             </includes>
           </resource>
         </webResources>
